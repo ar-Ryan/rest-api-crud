@@ -1,0 +1,11 @@
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+     "name": "Kyle",
+     "subscribedTo" : "web dev Simplified"
+}
+
+###
+
+GET http://localhost:3000/subscribers
